@@ -17,7 +17,7 @@ const Header = () => {
           <div className="container">
             <div className="hero-content">
               <div className="profile">
-                <img src="image/profile.jpg" alt="Foto Yorry Efrem" />
+                <img src={`data:image/jpeg;base64,${header.image}`} alt="Foto Yorry Efrem" />
               </div>
               <div className="info">
                 <h1>{header.name}</h1>
